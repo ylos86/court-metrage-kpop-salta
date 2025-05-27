@@ -1,0 +1,189 @@
+{
+  "project_config": {
+    "name": "Court-Métrage K-pop Salta",
+    "version": "3.0",
+    "description": "Court-métrage d'animation 3D - Petite fille K-pop à Salta, Argentine",
+    "created_date": "2025-05-27",
+    "target_duration_seconds": 36,
+    "target_resolution": "4K",
+    "animation_style": "3D Stylized Pixar-like"
+  },
+  
+  "technical_specs": {
+    "framerate": 24,
+    "aspect_ratio": "16:9",
+    "color_space": "Rec.709",
+    "audio_sample_rate": 48000,
+    "render_engine": "Cycles/Eevee",
+    "export_formats": ["MOV", "MP4", "EXR", "PNG"]
+  },
+  
+  "ai_settings": {
+    "image_generation": {
+      "service": "midjourney",
+      "backup_service": "dalle3",
+      "style_consistency": true,
+      "resolution": "1024x1024",
+      "upscale": true
+    },
+    "prompt_optimization": {
+      "include_technical_specs": true,
+      "include_lighting_notes": true,
+      "include_camera_angles": true,
+      "style_references": ["Pixar", "K-pop", "Argentine culture"]
+    }
+  },
+  
+  "blender_integration": {
+    "version": "3.6+",
+    "required_addons": ["Rigify", "Extra Objects", "Animation Nodes"],
+    "render_settings": {
+      "engine": "Cycles",
+      "samples": 128,
+      "denoising": true,
+      "motion_blur": true
+    },
+    "export_formats": ["FBX", "OBJ", "GLTF", "USD"]
+  },
+  
+  "music_sync": {
+    "main_track_bpm": 128,
+    "secondary_tracks": [
+      {"name": "Intro", "bpm": 100, "duration": 8},
+      {"name": "K-pop Dance", "bpm": 128, "duration": 12},
+      {"name": "Concentration", "bpm": 120, "duration": 10},
+      {"name": "Transition", "bpm": 80, "duration": 6}
+    ],
+    "beat_markers": true,
+    "sync_precision": "frame_accurate"
+  },
+  
+  "color_palette": {
+    "kpop_colors": {
+      "primary": "#FF69B4",
+      "secondary": "#00FFFF", 
+      "accent": "#FFD700",
+      "energy": "#8A2BE2",
+      "highlight": "#32CD32"
+    },
+    "argentina_colors": {
+      "primary": "#D2691E",
+      "secondary": "#CD853F",
+      "accent": "#F4A460",
+      "warm": "#DEB887",
+      "earth": "#BC8F8F"
+    },
+    "lighting_colors": {
+      "neon_pink": "#FF1493",
+      "neon_cyan": "#00FFFF",
+      "golden_hour": "#FFD700",
+      "soft_fill": "#E6E6FA"
+    }
+  },
+  
+  "character_specs": {
+    "main_character": {
+      "name": "Pequeña Estrella",
+      "age": "10-12 years",
+      "ethnicity": "Argentine",
+      "personality": "Energetic, passionate, dreamy",
+      "clothing_style": "K-pop inspired casual",
+      "animation_style": "Exaggerated expressions, dynamic movements"
+    },
+    "supporting_characters": {
+      "father": {
+        "role": "Voice only",
+        "personality": "Caring, patient, understanding",
+        "cultural_background": "Traditional Argentine"
+      }
+    }
+  },
+  
+  "scene_locations": {
+    "main_bedroom": {
+      "style": "Modern K-pop aesthetic in traditional Argentine home",
+      "lighting": "Mixed neon and natural light",
+      "props": ["K-pop posters", "LED strips", "Dance mirror", "Figurines"],
+      "atmosphere": "Vibrant, energetic, personal sanctuary"
+    },
+    "exterior_view": {
+      "location": "Salta, Argentina",
+      "architecture": "Colonial style",
+      "lighting": "Golden hour warmth",
+      "purpose": "Cultural contrast background"
+    }
+  },
+  
+  "production_pipeline": {
+    "phases": [
+      {
+        "name": "Pre-production",
+        "duration_weeks": 2,
+        "tasks": ["Concept art", "Storyboard", "Character design", "Scene planning"],
+        "deliverables": ["Visual references", "Animatic", "Asset list"]
+      },
+      {
+        "name": "Production",
+        "duration_weeks": 6,
+        "tasks": ["3D modeling", "Rigging", "Animation", "Lighting", "Rendering"],
+        "deliverables": ["3D assets", "Animation sequences", "Rendered frames"]
+      },
+      {
+        "name": "Post-production", 
+        "duration_weeks": 2,
+        "tasks": ["Editing", "Color grading", "Audio mixing", "Final export"],
+        "deliverables": ["Final cut", "Master files", "Distribution formats"]
+      }
+    ]
+  },
+  
+  "budget_estimates": {
+    "currency": "EUR",
+    "breakdown": {
+      "pre_production": 2500,
+      "production": 8000,
+      "post_production": 1500,
+      "equipment": 1200,
+      "software": 800,
+      "contingency": 1000
+    },
+    "total": 15000,
+    "funding_sources": ["Personal", "Crowdfunding", "Local grants"]
+  },
+  
+  "export_settings": {
+    "pdf_reports": {
+      "include_images": true,
+      "include_budget": true,
+      "include_timeline": true,
+      "professional_layout": true
+    },
+    "blender_scripts": {
+      "auto_setup": true,
+      "include_comments": true,
+      "modular_structure": true
+    },
+    "ai_prompts": {
+      "detailed_descriptions": true,
+      "technical_specifications": true,
+      "style_references": true,
+      "multiple_variations": true
+    }
+  },
+  
+  "collaboration": {
+    "github_integration": true,
+    "version_control": true,
+    "team_sharing": true,
+    "progress_tracking": true,
+    "file_organization": "Automated"
+  },
+  
+  "quality_standards": {
+    "animation_quality": "Professional",
+    "render_quality": "High",
+    "audio_quality": "Professional",
+    "delivery_format": "Cinema 4K",
+    "backup_strategy": "Multiple formats and locations"
+  }
+}
